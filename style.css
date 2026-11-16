@@ -1,0 +1,78 @@
+
+/* Estilo geral da página */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    min-height: 100vh;
+}
+
+/* Cartão principal */
+.container {
+    background: white ;
+    width: 100%;
+    max-width: 365px;
+    padding: 30px 27px 26px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #00000018;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Título do jogo */
+h1 {
+    font-size: 28px;
+    line-height: 1.4;
+    color: #000000;
+    margin: 0 0 20px;
+}
+
+/* Organização dos botões */
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+/* Botões de jogada */
+.jogada {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+
+    background-color: #3bd7a6;
+    color: rgb(0, 0, 0);
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse */
+.jogada:hover {
+    background-color: #35bda2;
+}
+
+/* Área do resultado */
+#resultado {
+    margin-top: 20px;
+    color: #111;
+}
+
+/* Texto do resultado */
+#resultado h2 {
+    font-size: 22px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+#resultado p {
+    font-size: 17px;
+    margin: 8px 0 15px;
+}
